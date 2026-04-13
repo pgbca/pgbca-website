@@ -1,0 +1,237 @@
+index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PGBCA STRONG GROUP ASSOCIATION INC</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+
+body {
+
+    margin: 0;
+
+    font-family: 'Poppins', sans-serif;
+
+    background-color: #f9f6f2;
+
+    color: #333;
+
+}
+
+header {
+
+    background: #7b1e1e;
+
+    padding: 20px 40px;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    color: white;
+
+}
+
+header img {
+
+    height: 60px;
+
+}
+
+nav a {
+
+    color: white;
+
+    margin-left: 20px;
+
+    text-decoration: none;
+
+    font-weight: 500;
+
+}
+
+.hero {
+
+    background: linear-gradient(rgba(123,30,30,0.85), rgba(123,30,30,0.85)),
+
+    url('https://images.unsplash.com/photo-1506157786151-b8491531f063');
+
+    background-size: cover;
+
+    background-position: center;
+
+    text-align: center;
+
+    padding: 120px 20px;
+
+    color: white;
+
+}
+
+.hero h1 {
+
+    font-size: 42px;
+
+}
+
+.section {
+
+    padding: 70px 20px;
+
+    text-align: center;
+
+    max-width: 1000px;
+
+    margin: auto;
+
+}
+
+.donation-cards {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    justify-content: center;
+
+    gap: 20px;
+
+}
+
+.card {
+
+    background: white;
+
+    padding: 25px;
+
+    width: 260px;
+
+    border-radius: 10px;
+
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+
+}
+
+.card h4 {
+
+    margin-bottom: 10px;
+
+}
+
+.btn {
+
+    display: inline-block;
+
+    margin-top: 15px;
+
+    padding: 10px 25px;
+
+    background: #b8860b;
+
+    color: white;
+
+    text-decoration: none;
+
+    border-radius: 5px;
+
+}
+
+footer {
+
+    background: #7b1e1e;
+
+    color: white;
+
+    padding: 20px;
+
+    text-align: center;
+
+}
+
+@media(max-width:768px){
+
+    .donation-cards{
+
+        flex-direction: column;
+
+        align-items: center;
+
+    }
+
+}
+</style>
+</head>
+<body>
+<header>
+<img src="logo.png" alt="PGBCA Logo">
+<nav>
+<a href="#">Home</a>
+<a href="#about">About</a>
+<a href="#mission">Mission</a>
+<a href="#donate">Donate</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+<section class="hero">
+<h1>United Generations. One Dance. One Community.</h1>
+<p>Preserving tradition through unity, diversity, and the joy of dance.</p>
+</section>
+<section class="section" id="about">
+<h2>About Us</h2>
+<p>
+
+    Inspired by our notable tradition bay-le/baile, PGBCA STRONG GROUP ASSOCIATION INC
+
+    envisions an assembly of united generations formed with enthusiasm and fostered by diverse cultures
+
+    partaking in a remarkable dance-party-like experience led by a strong, stable, and loyal association.
+</p>
+</section>
+<section class="section" id="mission">
+<h2>Our Mission</h2>
+<p>
+
+    To preserve the town's tradition where people of united generations meet and jive together to express jubilation
+
+    and further develop strong camaraderie by nurturing inclusion, diversity, respect,
+
+    and social awareness through the joy of dance.
+</p>
+</section>
+<section class="section" id="donate">
+<h2>Support Our Advocacy</h2>
+<p>Your donation helps us continue preserving culture and strengthening community bonds.</p>
+<div class="donation-cards">
+<div class="card">
+<h4>GCash</h4>
+<p>Send your donation to:</p>
+<strong>09XX-XXX-XXXX</strong>
+</div>
+<div class="card">
+<h4>GoTyme</h4>
+<p>Account Name:</p>
+<strong>PGBCA STRONG GROUP</strong>
+</div>
+<div class="card">
+<h4>PayPal</h4>
+<p>Donate securely online:</p>
+<a class="btn" href="https://paypal.me/yourlink" target="_blank">Donate via PayPal</a>
+</div>
+</div>
+</section>
+<section class="section" id="contact">
+<h2>Contact Us</h2>
+<p>Email: info@pgbcastronggroup.org</p>
+<p>Location: Philippines</p>
+</section>
+<footer>
+
+    © 2026 PGBCA STRONG GROUP ASSOCIATION INC | All Rights Reserved
+</footer>
+</body>
+</html>
+ 
